@@ -1,0 +1,7 @@
+.section__bottom {
+    display: flex;
+    height: 20px;    
+    align-items: center;
+    color:rgb(235, 167, 78);
+    background:rgb(99, 36, 11);
+}
