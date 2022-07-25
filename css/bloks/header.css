@@ -7,8 +7,6 @@
     width: 100%;
 }
 
-
-
 .site__name {
     max-width: 100px;
     text-align: center;
@@ -23,7 +21,7 @@
     font-size: 4vw;
     font-style: italic;
     color: rgb(99, 36, 11);
-}
+} 
 
 .site__contacts {   
     position: absolute;
@@ -34,8 +32,7 @@
 
 .site__contacts--phone {
     display: inline-block;
-    margin-right: 50px;
-    
+    margin-right: 50px;    
 }
 
 .site__contacts--mail{

@@ -1,5 +1,5 @@
 .section {
-    min-height: 1000px;
+    
     display: flex;      
 }
 
@@ -57,7 +57,7 @@
 
 .section__title--left {
     text-align: center;
-    font-size: 5vh;
+    font-size: 4vw;
     font-style: italic;
     font-family: Logo__font;
     padding: 10px 10px;    
@@ -65,7 +65,7 @@
 
 .section__title--right {
     text-align: center;
-    font-size: 6vh;
+    font-size: 5vw;
     font-style: italic;
     font-family: Logo__font;
     padding: 10px 10px;    
@@ -82,7 +82,7 @@
     .content__our--works {width: 100%;}
     .section__title--right {text-align: center;}
     .content__our--products {display: flex; flex-direction: column; width: 100%;}
-    .news {display: flex; flex-wrap: wrap; justify-content: space-between;}
-    .news__item {margin-right: 0.2%;}
+    .news {display: grid; grid-template-columns: 1fr 1fr 1fr; row-gap: 8px; align-items: center; font-weight: bold;}
+    .news__item {font-size: 3vw; }
     .content__middle {display: none};
   }
