@@ -1,6 +1,9 @@
-.section {
-    
+.section {   
     display: flex;      
+}
+
+.info__item {
+    color: rgb(49, 8, 8);
 }
 
 .content__our--products {
@@ -21,7 +24,7 @@
     background-attachment: fixed;
     background-size: cover;
     color: rgb(99, 36, 11);
-    width: 74.5%;
+    width: 80.5%;
     padding-left: 0.5%;
     padding-right: 0.5%;
 }
@@ -29,24 +32,25 @@
 .review__title {
     color: black;
     text-indent: 1.5%;
-    font-size: 4vh;
+    font-size: 3vw;
     font-weight: bold;
-
+    margin-bottom: 0.5vw;
 }
 
 .avatar__info {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 20px;
+    margin-bottom: 2vw;
 }
 
 .avatar__about {
     align-self: center;
     margin-left: 2%;
+    font-size: 1.5vw;
 }
 
 .avatar__img {
-    width: 40vh;
+    width: 25vw;
     height: auto;
     object-fit: fill;
 }
@@ -65,10 +69,11 @@
 
 .section__title--right {
     text-align: center;
-    font-size: 5vw;
+    font-size: 4vw;
     font-style: italic;
     font-family: Logo__font;
-    padding: 10px 10px;    
+    padding: 10px 10px;  
+    margin-bottom: 0.5vw;  
 }
 
 .content__info {
@@ -77,7 +82,7 @@
     color: black;
 }
 
-@media screen and (min-width: 320px) and (max-width: 600px) {
+/*@media screen and (min-width: 320px) and (max-width: 600px) {
     .section {flex-direction: column; }
     .content__our--works {width: 100%;}
     .section__title--right {text-align: center;}
@@ -85,4 +90,4 @@
     .news {display: grid; grid-template-columns: 1fr 1fr 1fr; row-gap: 8px; align-items: center; font-weight: bold;}
     .news__item {font-size: 3vw; }
     .content__middle {display: none};
-  }
+  }*/

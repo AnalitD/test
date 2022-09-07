@@ -34,6 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
     margin-top: 0;
     text-indent: 1.5%;
+    font-size: 1.75vw;
 } /* сброс отступов у параграфов*/
 
 * {
@@ -52,12 +53,13 @@ button {
 }
 
 span {
-    font-weight: bold;
+    color: black;
+    /*font-weight: bold;*/
 }
 
 .wrapper {
     overflow: hidden; /* прячет скрол страницы */    
-    min-height: 100%; /* высота страницы от родителя (html->body) что бы страница растягивалась на весь экран устройства */
+    /*min-height: 100%; /* высота страницы от родителя (html->body) что бы страница растягивалась на весь экран устройства */
     display: flex; /* переключили стиль на флекс */
     flex-direction: column; /* установили расположение элементов страницы в колоночный вид */
     justify-content: space-between;
@@ -69,7 +71,7 @@ span {
     background-size: 100%; /*фоновое изображение на весь размер окна браузера*/
     
     background-attachment: fixed;
-    background-size: 100%;
+    
     
 }
 

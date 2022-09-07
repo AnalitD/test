@@ -58,7 +58,7 @@
     .info__footer > div {flex-basis: 45%;}
     .info__footer {row-gap: 15px;}
     .site__name--footer {order: 2; text-align: center;}   
-    .icon__footer {width: 46px; height: 46px;}
+    .icon__footer {width: 6vw; height: 6vw;}
     
 }
 
