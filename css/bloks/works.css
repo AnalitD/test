@@ -1,0 +1,19 @@
+.reviews__images {
+    display: flex;
+    column-gap: 2%;
+    flex-wrap: wrap;   
+    padding: 0 1.5%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.images__page {  
+    width: 30%;
+    margin-bottom: 2%;
+    /*flex-grow: 1;*/
+    height: 100%;
+}
+
+.img_page2 {
+    width: 40%;
+}
