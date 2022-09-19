@@ -17,3 +17,11 @@
 .img_page2 {
     width: 40%;
 }
+
+.animate1{
+    transition: all 1s ease;
+}
+.animate1:hover{
+    transform: scale(1.3);
+}
+
