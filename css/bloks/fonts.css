@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'Logo__font'; 
+	src: url(../../fonts/Pacifico-Regular.ttf);
+	
+}
+
+@font-face {
+	font-family: 'Title__font'; 
+	
+	src: url(../../fonts/Merriweather-BlackItalic.ttf);
+}
