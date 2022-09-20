@@ -63,7 +63,7 @@ span {
     min-height: 100%; /* высота страницы от родителя (html->body) что бы страница растягивалась на весь экран устройства */
     display: flex; /* переключили стиль на флекс */
     flex-direction: column; /* установили расположение элементов страницы в колоночный вид */
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     width: 90%;
     margin: 0 auto;
     background-color: #333;
